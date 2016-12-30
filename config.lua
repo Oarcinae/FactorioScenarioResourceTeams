@@ -11,14 +11,11 @@ CHUNK_SIZE = 32
 -- Messages
 --------------------------------------------------------------------------------
 
--- WELCOME_MSG = "[INSERT SERVER OWNER MSG HERE!]"
-WELCOME_MSG = "Welcome to Oarc's official server! Join the discord here: discord.gg/Wj56gkU"
-GAME_MODE_MSG = "In the current game mode, you must work together to launch a rocket to win!"
+WELCOME_MSG = "[INSERT SERVER OWNER MSG HERE!]"
+GAME_MODE_MSG = "In the current game mode, you must work together to launch satellites to win!"
 MODULES_ENABLED = "Mods Enabled: Gravestone Chests, Long-Reach, Autofill, Blueprint Strings"
--- MODULES_ENABLED = "Mods Enabled: Gravestone-Chests"
 
--- WELCOME_MSG_TITLE = "[INSERT SERVER OWNER MSG HERE!]"
-WELCOME_MSG_TITLE = "Welcome to Oarc's Server"
+WELCOME_MSG_TITLE = "[INSERT SERVER OWNER MSG HERE!]"
 WELCOME_MSG1 = "Rules: Be polite. Ask before changing other players's stuff. Have fun!"
 WELCOME_MSG2 = "This server is running a custom scenario."
 
@@ -36,11 +33,17 @@ SPAWN_MSG1 = "This is a cooperative game mode scenario, not PvP!"
 SPAWN_MSG2 = "In this mode, there are two teams of players. One on each side of the map."
 SPAWN_MSG3 = "The left side of the map has copper ore. The right has iron."
 SPAWN_MSG4 = "Players cannot cross the wall but can trade resources across it."
-SPAWN_MSG5 = "To win, both groups must work together to launch a satellite."
+SPAWN_MSG5 = "To win, both groups must work together to each launch a satellite."
 
 SPAWN_NOTE1 = "Both groups get some starting resources. Use /s to chat between teams."
 SPAWN_NOTE2 = "Join the discord for some extra communication channels :)"
 SPAWN_NOTE3 = "discord.gg/Wj56gkU"
+
+-- These are my specific welcome messages that get used only if I am the user
+-- that creates the game.
+WELCOME_MSG_OARC = "Welcome to Oarc's official server! Join the discord here: discord.gg/Wj56gkU"
+WELCOME_MSG_TITLE_OARC = "Welcome to Oarc's Server"
+
 
 --------------------------------------------------------------------------------
 -- Module Enables
