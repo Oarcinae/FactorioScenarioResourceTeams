@@ -50,6 +50,9 @@ script.on_init(function(event)
     if ENABLE_BLUEPRINT_STRING then
         bps_init()
     end
+
+    global.welcome_msg = WELCOME_MSG
+    global.welcome_msg_title = WELCOME_MSG_TITLE
 end)
 
 
